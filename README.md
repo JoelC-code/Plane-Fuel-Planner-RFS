@@ -18,7 +18,7 @@ The planned fuel contains:
 
 ### Screenshot
 Application in terminal:
-![App in action]()
+![App in action](https://github.com/JoelC-code/Plane-Fuel-Planner-RFS/blob/main/Demo.png?raw=true)
 
 ### Setup
 1. Clone the project in an IDE,
