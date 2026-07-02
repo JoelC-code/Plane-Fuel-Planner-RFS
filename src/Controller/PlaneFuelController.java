@@ -15,13 +15,13 @@ public class PlaneFuelController {
         scan = new Scanner(System.in);
         listPlanes = new ArrayList<>();
         listPlanes.add(new PlaneModel("A320", 2250, PlaneCategory.REGIONAL));
-        listPlanes.add(new PlaneModel("SF34", 800, PlaneCategory.REGIONAL));
+        listPlanes.add(new PlaneModel("SF34", 420, PlaneCategory.REGIONAL));
         listPlanes.add(new PlaneModel("CRJ9", 1200, PlaneCategory.REGIONAL));
         //listPlanes.add(new PlaneModel("B38M", 2200, true));
         //listPlanes.add(new PlaneModel("BCS3", 1950, true));
         //listPlanes.add(new PlaneModel("B77W", 7500, false));
-        listPlanes.add(new PlaneModel("DC86", 6000, PlaneCategory.WIDE_BODY));
-        listPlanes.add(new PlaneModel("B77L", 6400, PlaneCategory.WIDE_BODY));
+        //listPlanes.add(new PlaneModel("DC86", 6000, PlaneCategory.WIDE_BODY));
+        //listPlanes.add(new PlaneModel("B77L", 6400, PlaneCategory.WIDE_BODY));
         //listPlanes.add(new PlaneModel("B772", 6400, false));
         //listPlanes.add(new PlaneModel("B788", 4900, false));
         //listPlanes.add(new PlaneModel("B789", 5600, false));
@@ -37,8 +37,8 @@ public class PlaneFuelController {
         //listPlanes.add(new PlaneModel("A346", 8200, false));
         //listPlanes.add(new PlaneModel("A21N", 2400, true));
         //listPlanes.add(new PlaneModel("B772", 6800, false));
-        listPlanes.add(new PlaneModel("MD11", 5260, PlaneCategory.WIDE_BODY));
-        listPlanes.add(new PlaneModel("A339", 5000, PlaneCategory.WIDE_BODY));
+        //listPlanes.add(new PlaneModel("MD11", 5260, PlaneCategory.WIDE_BODY));
+        //listPlanes.add(new PlaneModel("A339", 5000, PlaneCategory.WIDE_BODY));
         //listPlanes.add(new PlaneModel("A332", 5800, false));
         //listPlanes.add(new PlaneModel("A332(F)", 5950, false));
     }
