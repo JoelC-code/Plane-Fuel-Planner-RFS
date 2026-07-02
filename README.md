@@ -1,5 +1,6 @@
 # Plane-Fuel-Planner-RFS
 
+## Purpose
 This app is used to calculate fuel needed for flight sim purpose. The app contains list of planes with specific fuel flow and the planning for the fuel only. the flow is the following:
 1. Select a plane (using number)
 2. Insert flight duration (with the format of HHMM)
@@ -12,5 +13,14 @@ The planned fuel contains:
 - Reserve fuel incase the trip fuel is empty and
 - Taxi fuel for taxiing to the runway
 
-Application in terminal:
-![App in action]()
+## Tools
+- Java
+
+## Screenshot
+Project in action:
+![Project in action](https://github.com/JoelC-code/Plane-Fuel-Planner-RFS/blob/main/Demo.png?raw=true)
+
+## Setup
+1. Clone the project in an IDE,
+2. Press "Run" and
+3. The project will be run inside the terminal.
