@@ -3,21 +3,21 @@ package Model;
 public class PlaneModel {
     private String planeType;
     private double fuelBurn;
-    private boolean isNarrowBodies;
+    private PlaneCategory category;
 
-    public PlaneModel(String planeType, double fuelBurn, boolean isNarrowBodies) {
+    public PlaneModel(String planeType, double fuelBurn, PlaneCategory category) {
         this.planeType = planeType;
         this.fuelBurn = fuelBurn;
-        this.isNarrowBodies = isNarrowBodies;
+        this.category = category;
     }
 
     
-    public boolean isNarrowBodies() {
-        return isNarrowBodies;
+    public PlaneCategory getCategory() {
+        return category;
     }
 
-    public void setNarrowBodies(boolean isNarrowBodies) {
-        this.isNarrowBodies = isNarrowBodies;
+    public void setCategory(PlaneCategory category) {
+        this.category = category;
     }
 
     public String getPlaneType() {
